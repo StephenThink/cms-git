@@ -58,7 +58,7 @@ return [
     |
     */
 
-    'dispatch_delay' => env('STATAMIC_GIT_DISPATCH_DELAY', 0),
+    'dispatch_delay' => env('STATAMIC_GIT_DISPATCH_DELAY', 5),
 
     /*
     |--------------------------------------------------------------------------
