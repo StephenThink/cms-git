@@ -27,7 +27,7 @@ class Kernel extends ConsoleKernel
         // $schedule->command('inspire')
         //          ->hourly();
         $schedule
-        ->command('php please git:commit')
+        ->command('statamic:git:commit && git push')
         ->everyMinute();
     }
 
